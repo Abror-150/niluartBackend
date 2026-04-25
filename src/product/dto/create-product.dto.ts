@@ -62,12 +62,4 @@ export class CreateProductDto {
   @IsString()
   @IsNotEmpty()
   image: string;
-
-  @ApiProperty()
-  @IsNotEmpty()
-  SanatTexnikasi: string;
-
-  @ApiProperty()
-  @IsNotEmpty()
-  QoldaIshlashJarayoni: string;
 }
