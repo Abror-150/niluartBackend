@@ -1,6 +1,6 @@
 import { IsString, IsNotEmpty } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
-import { Prisma } from 'generated/prisma/client'; // ✅ Prisma.Decimal ishlatamiz
+import { Prisma } from 'generated/prisma/client';
 
 export class CreateProductDto {
   @ApiProperty({

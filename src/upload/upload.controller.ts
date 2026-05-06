@@ -51,8 +51,8 @@ export class UploadController {
       .toFile(compressedPath);
 
     return {
-      original: `https://api.mehrsep.uz/images/${file.filename}`,
-      compressed: `https://api.mehrsep.uz/images/compressed-${file.filename}`,
+      original: `http://92.5.39.190/${file.filename}`,
+      compressed: `http://92.5.39.190/compressed-${file.filename}`,
     };
   }
 }
